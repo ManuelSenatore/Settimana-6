@@ -1,0 +1,45 @@
+@import 'variables';
+@import 'buttons';
+
+
+body{
+    background-color: $bg;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    display: $flex;
+    justify-content: space-between;
+    align-items: center;
+li{
+    margin-left: 1.5em;
+    display: inline;
+}
+h1{
+    font-size: 2rem;
+    align-self: flex-start;
+}
+}
+.showcase-content{
+    margin-top: 3rem;
+    display: $flex;
+    flex-direction: row;
+    div{
+        align-self: center;
+    }
+    .my-1{
+      padding-bottom: $padd;
+    }
+    h1{
+        font-size: 4rem;
+    }
+}
+
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}

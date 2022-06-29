@@ -1,0 +1,60 @@
+.showcase-content .btn-primary {
+  background-color: #2a70f6;
+  padding: 1.3rem;
+  border-radius: 10px;
+}
+.showcase-content .btn-primary:hover {
+  zoom: 120%;
+}
+.showcase-content .btn-secondary {
+  background-color: #f08c34;
+  padding: 1.3rem;
+  border-radius: 10px;
+}
+.showcase-content .btn-secondary:hover {
+  zoom: 120%;
+}
+
+body {
+  background-color: purple;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li {
+  margin-left: 1.5em;
+  display: inline;
+}
+nav h1 {
+  font-size: 2rem;
+  align-self: flex-start;
+}
+
+.showcase-content {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+}
+.showcase-content div {
+  align-self: center;
+}
+.showcase-content .my-1 {
+  padding-bottom: 1.3rem;
+}
+.showcase-content h1 {
+  font-size: 4rem;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */

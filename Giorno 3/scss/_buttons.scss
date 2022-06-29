@@ -1,0 +1,18 @@
+.showcase-content{
+    .btn-primary{
+        background-color: $color1; ;
+        padding: $padd;
+        border-radius: $bordo;
+        &:hover{
+           zoom: 120%;
+        }
+    }
+    .btn-secondary{
+        background-color: $color2;
+        padding: $padd;
+        border-radius: $bordo;
+        &:hover{
+            zoom: 120%;
+         }
+    } 
+}
