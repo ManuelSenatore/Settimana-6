@@ -1,0 +1,14 @@
+@mixin navbar(){
+    width: 100%; 
+    background-color: rgb(6, 6, 60);
+    border: 1px solid white;
+    box-shadow: 1px 2px 5px $orange;
+}
+@mixin container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+$fFamily: 'Roboto';
+
+

@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto);
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+#main-menu {
+  width: 100%;
+  background-color: rgb(6, 6, 60);
+  border: 1px solid white;
+  box-shadow: 1px 2px 5px rgb(199, 111, 3);
+}
+#main-menu li {
+  display: inline;
+  margin-right: 20px;
+}
+#main-menu li a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+}
+
+#main {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 780px) {
+  #main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+  }
+}
+#main a {
+  text-decoration: none;
+  color: rgb(199, 111, 3);
+  font-style: italic;
+}
+#main button {
+  background-color: rgb(250, 163, 1);
+  color: white;
+}
+#main aside {
+  flex: 1;
+}
+@media screen and (max-width: 780px) {
+  #main aside ul {
+    padding-left: 0;
+  }
+}
+#main aside ul li {
+  list-style: none;
+  border-bottom: grey dotted 2px;
+  padding: 10px;
+  width: 140px;
+}
+@media screen and (max-width: 780px) {
+  #main aside ul li {
+    width: 100%;
+  }
+}
+
+footer {
+  width: 100%;
+  border: none;
+  background-color: rgba(21, 133, 244, 0.816);
+  height: 5em;
+}/*# sourceMappingURL=main.css.map */

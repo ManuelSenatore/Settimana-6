@@ -1,0 +1,57 @@
+@import 'variables';
+@import 'mixin';
+@import 'font';
+
+
+#main-menu {
+    @include navbar;
+    li{
+        display: inline;
+        margin-right: 20px;
+     a{
+        color: white;
+        text-decoration: none;
+        font-style: italic;
+     }  
+    }
+}
+#main{
+   @include container;
+   @media screen and (max-width: 780px){
+     display: flex;
+     flex-direction: column-reverse;
+     justify-content: flex-start;
+   }
+   a{
+    text-decoration: none;
+    color: $orange;
+    font-style: italic;
+   }
+   button{
+     background-color: rgb(250, 163, 1);
+     color: white;
+   }
+     aside{
+        flex: 1;
+        ul{
+            @media screen and (max-width: 780px){
+               padding-left: 0;
+        }
+        li{
+           list-style: none;
+           border-bottom: grey dotted 2px;
+           padding: 10px;
+           width: 140px;
+           @media screen and (max-width: 780px){
+            width: 100%;
+           }
+        }
+       }
+}
+}
+footer{
+    width: 100%;
+    border: none;
+    background-color: rgba(21, 133, 244, 0.816);
+    height: 5em;
+}
