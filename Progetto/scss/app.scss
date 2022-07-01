@@ -1,0 +1,30 @@
+@import "../node_modules/bootstrap-scss/bootstrap.scss";   
+
+section{
+    background-image: url(https://images.unsplash.com/photo-1514565131-fce0801e5785?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2532&q=80);
+    padding: 7rem 6rem 20rem 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    text-shadow: 2px 2px 5px #fff;
+}
+ion-icon{
+    font-size: 2.3em;  
+}
+.nav{
+    font-size: 22px;
+}
+.rotate{
+    transform: rotate(180deg);
+
+}
+@function textColor($bgc) {
+    @if (lightness($bgc) > 50) {
+        @return black;
+    }
+
+    @else {
+        @return white;
+    }
+}
